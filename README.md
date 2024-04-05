@@ -212,7 +212,7 @@ options:
 ```
 
 ### Converting a Single LogRhythm7 List
-As of today (DATE), only the payload is stored in a specific path (C:\LogRhythm\AxonLists), with the file name as the list name (if the list has multi value types then will add a number to the file name)
+If you specify -d option it'll save the payload into the path: C:\LogRhythm\AxonLists\
 ```
 set LR_API_KEY=eyJhbGciOiJSUzI1NiIsInR5cCI....
 set AXON_API_KEY=abcdefABCDEF1234....
